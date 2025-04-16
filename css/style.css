@@ -1,0 +1,71 @@
+.header{
+    margin:0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer{
+    background-color: #161616;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 239px;
+    height: 217px;
+
+  background-image: url(../img/flower.png);
+  background-size: cover;
+}
+body{
+    font-family: "Poppins", sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+.box{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .gallery{
+    position: relative;
+  
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      width: 125px;
+      height: 140px;
+      background-image: url(../images/rose.png);
+      background-size: cover;
+    }}
+
+    .flower{
+        h1{
+        font-weight: 600;
+        color: #de562d;
+        font-size: 5rem;
+        margin-bottom: 30px;
+      }
+      a {
+        display: inline-block;
+        padding: 8px 85px;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 25px;
+        margin: 30px ;
+      }
+    img{
+        border-radius: 10px;
+        background-color: #de562d;
+        padding: 8px 30px;
+        margin: 30px ;
+    }}
+
+    .image{
+
+    }
+
+    .insta{
+
+    }
