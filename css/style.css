@@ -162,3 +162,52 @@ h2{
   right: 100;
   left: 100;
 }
+.flower11{
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 0px;
+  bottom: 10;
+  right: 0;
+  left: 0;
+}
+
+.aboutpng{
+width: 340px;
+position: relative;
+top:  60px;
+
+}
+.aboutname{
+  text-align: right;
+  position: relative;
+ left: 100%;
+ bottom: 240px;
+ font-size: 160%;
+}
+.abouttext{
+text-align: right;
+position: relative;
+left: 70%;
+bottom: 270px;
+}
+.tulpe{
+  position: relative;
+  top: 8px;
+}
+
+.welcome{
+ width: 130%;
+
+ 
+}
+.title{
+  font-size: 200%;
+  position: relative;
+  top:70px ;
+}
+
+.buybutton{
+  position: relative;
+right: 6%;
+}
