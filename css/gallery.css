@@ -1,0 +1,90 @@
+.gallery{
+  font-family: "Livvic", sans-serif;
+  h2{
+  position: relative;
+  font-size: 40px;
+  left: 560px;
+  bottom: 1350px;
+  }
+  img.roze{
+  position:absolute;
+  width: 150px;
+  bottom: 1260px;
+  left: -40px;
+  }
+
+  img.rozee{
+  position:absolute;
+  width: 160px;
+  bottom: 290px;
+  left: 1220px;
+  }
+
+  .tulpe{
+  position: relative;
+  bottom: -10px;
+  }
+
+  img{
+  position: relative;
+  }
+
+  img.image1{
+  position:absolute;
+  left: 190px;
+  bottom: 1100px;
+  width: 310px;
+  }
+
+  img.image2{
+  position:absolute;
+  bottom: 905px;
+  left: 525px;
+  width: 330px;
+  }
+
+  img.image3{
+  position:absolute;
+  bottom: 1095px;
+  left: 880px;
+  width: 340px;
+  height: 220px;
+  }
+
+  img.image4{
+  position:absolute;
+  bottom: 690px;
+  width: 310px;
+  left: 190px;
+  }
+
+  img.image5{
+  position:absolute;
+  bottom: 690px;
+  left: 524px;
+  width: 332px;
+  height: 190px;
+  }
+
+  img.image6{
+  position:absolute;
+  bottom: 830px;
+  left: 880px;
+  width: 340px;
+  }
+
+  img.image7{
+  position:absolute;
+  bottom: 400px;
+  left: 190px;
+  width: 665px;
+  }
+
+  img.image8{
+  position:absolute;
+  bottom: 400px;
+  left: 880px;
+  height: 400px;
+  width: 340px;
+  }}
+

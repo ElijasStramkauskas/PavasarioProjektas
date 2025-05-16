@@ -1,14 +1,107 @@
 .header{
-    margin:0 auto;
-    padding-left: 25px;
-    padding-right: 25px;
+  span{
+  position: relative;
+  z-index: 1;
+  bottom: 0px;
+  left: 190px;
+  font-size: 25px;
+  font-family: "Livvic", sans-serif;
+  }
+  ul li a{
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 4px;
+    
+  }
+  ul li a::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: -10%;
+    width: 0;
+    background-color: #de562d;
+    
+  }
+  ul li a:hover::after{
+    
+    width: 120%;
+  }
+  .ahome{
+    position: relative;
+    z-index: 1;
+    bottom: 775px;
+    left: 450px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+  }
+  .aabout{
+    position: relative;
+    z-index: 1;
+    bottom: 793px;
+    left: 530px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+  }
+  .agallery{
+    position: relative;
+    z-index: 1;
+    bottom: 810px;
+    left: 610px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+  }
+  .acontact{
+    position: relative;
+    z-index: 1;
+    bottom: 827px;
+    left: 700px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+  }
+  .alog{
+    position: relative;
+    z-index: 1;
+    bottom: 865px;
+    left: 1070px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+  }
+  .ashop{
+    position: relative;
+    z-index: 1;
+    bottom: 880px;
+    left: 1150px;
+    font-size: 15px;
+  }
+  .asearch{
+    width: 15px;
+    position: relative;
+    z-index: 1;
+    bottom: 900px;
+    left: 1200px;
+    font-size: 15px;
+  }
+  .flower11{
+    height: 740px;
+    right: 10px;
+    position: relative;
+    z-index: 0;
+    bottom: 40px;
+  }
+  .NavList{
+    list-style-type: none;
+  }
+  
 }
+
+
 .body{
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  
   color: #0c0c0c;
   background-color: #ffffff;
-  overflow-x: hidden;
+  
 }
 .box{
     width: 100%;
@@ -33,113 +126,150 @@
 /* section flower */
 
     .flower{
+      font-family: "Livvic", sans-serif;
 
         h2{
         text-align: left;
         position: relative;
-        top: 0px;
-        bottom: 0;
-        left: 100px;
-        top: -400px;
+        bottom: 1120px;
+        left: 170px;
+        font-size: 50px;
         }
+        span{
+        position: relative;
+        bottom: 790px;
+        left: 40px;}
 
         hr{
+        position: relative;
         width: 1px; 
         height: 300px; 
         display: inline-block;
-        margin-left: 7px;
+        left: 50px;
+        bottom: 790px;
         }
 
         h1{
         position: relative;
         font-weight: 600;
         color: #de562d;
-        font-size: 100px;
-        margin-bottom: 30px;
-        left: 100px;
-        top: -400px;
+        font-size: 95px;
+        bottom: 1190px;
+        left: 165px;
         }
       
         a{
         position: relative;
         display: inline-block;
         padding: 8px 85px;
-        background-color: #000000;
+        background-color: #de562d;
         color: #ffffff;
         border-radius: 25px;
-        margin: 30px ;
-        left: 80px;
-        top: -400px;
+        bottom: 1210px;
+        left: 175px;
         text-decoration: none;
+        }
+        a:hover{
+          background-color: #000000;
         }
         
         p{
         position: relative;
-        left: 110px;
-        top: -400px;
+        left: 175px;
+        bottom: 1250px;
+        font-size: 18px;
+        }
+        
+        .img-hover {
+          position: relative;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background-color: #de562d;
+          padding: 10px 10px;
+          margin: 1px;
+          bottom: 1150px;
+          left: 175px;
+        }
+      
+        
+        .img-hover:hover {
+          background-color: black;
+        }
+        .imghover {
+          position: relative;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background-color: #de562d;
+          padding: 10px 10px;
+          margin: 1px;
+          bottom: 1184px;
+          left: 220px;
+        }
+      
+        
+        .imghover:hover {
+          background-color: black;
         }
 
-        img{
-        position: relative;
-        background-color: #de562d;
-        padding: 10px 10px;
-        margin: 1px ;
-        top: -400px;
-        left: 110px;
-        border-radius: 50%;
-        width: 10px;
-        height: 10px;
-        object-fit: cover
-        }}
 
-/* pabaiga */
+      }
+
+/* flower pabaiga */
    
 
 /* section about */
 
-    .about{
+    .about{ 
+      font-family: "Livvic", sans-serif;
 
         h2{
         text-align: right;
         position: relative;
-        left: 600px;
-        bottom: 520px;
-        font-size: 50px;
+        left: -200px;
+        bottom: 1500px;
+        font-size: 40px;
+        
         }
     
         p{
         text-align: right;
         position: relative;
-        left: 600px;
-        bottom: 550px;
+        left: -200px;
+        bottom: 1520px;
         font-size: 130%;
         }
 
         .aboutpng{
         width: 520px;
         position: relative;
-        bottom: 150px;
-        left: 100px;
+        bottom: 1130px;
+        left: 190px;
         }
         .tulpe{
         position: relative;
         top: 8px;
         }}
 
-/* pabaiga */
+/* about pabaiga */
 
     
 
 /* section why */
 
    .why{
+    font-family: "Livvic", sans-serif;
        
         background-color: #ff0000;
         color: white;
         text-align: center;
         padding: 60px 20px;
         position: relative;
-        width: 1130px;
+        width: 1410px;
+        bottom: 1300px;
+        right: 10px;
+        height: 410px;
         
         }
 
@@ -151,24 +281,29 @@
         color: #ff0000;
         border-radius: 25px;
         margin: 30px ;
-        bottom: -20px;
+        bottom: 50px;
+        width: 110px;
+        left: -15px;
         text-decoration: none;
         }
+      
 
         .why h2{
         position: relative;
         font-size: 40px;
-        bottom: 40px;
+        bottom: 100px;
 
 
         }
         .why p{
         position: relative;
         font-size: 20px;
-        max-width: 1000px;
-        left: 60px;
+        max-width: 1245px;
+        left: 70px;
+        bottom: 70px;
         }
         .skaiciai{
+          font-family: "Livvic", sans-serif;
         width: 100px;
         height: 100px;
         background-color: #ff5a0e;
@@ -182,220 +317,1317 @@
         font-size: 40px;
         }
         .du{
-        bottom: 120px;
+        bottom: 110px;
         left: 50px;
         }
         .tris{
-        left: 1000px;
-        bottom: 40px;
+        left: 1230px;
+        bottom: 1350px;
         }
         .vienas{
-          bottom: 250px;
-          left: 1050px;
+          bottom: 1170px;
+          left: 1220px;
         }
+        .keturi{bottom: 430px;
+        left: 50px;}
+        .penki{bottom: 875px;
+        left: 1220px;}
 
-/* pabaiga */
+/* why pabaiga */
 
 /* section gallery */
 
 .gallery{
-    h2{
-    position: relative;
-    font-size: 40px;
-    left: 480px;
-    }
+  font-family: "Livvic", sans-serif;
+  h2{
+  position: relative;
+  font-size: 40px;
+  left: 560px;
+  bottom: 1350px;
+  }
+  img.roze{
+  position:absolute;
+  width: 150px;
+  bottom: 1260px;
+  left: -40px;
+  }
 
-    .tulpe{
-    position: relative;
-    bottom: -10px;
-    }
+  img.rozee{
+  position:absolute;
+  width: 160px;
+  bottom: 290px;
+  left: 1220px;
+  }
 
-    img.image1{
-    position: relative;
-    left: 10px;
-    bottom: -20px;
-    width: 80%;
-    }
+  .tulpe{
+  position: relative;
+  bottom: -10px;
+  }
 
-    img.image2{
-    position: relative;
-    bottom: 245px;
-    left: 400px;
-    width: 80%;
-    }
+  img{
+  position: relative;
+  }
 
-    img.image3{
-    position: relative;
-    bottom: 710px;
-    left: 790px;
-    }
+  img.image1{
+  position:absolute;
+  left: 190px;
+  bottom: 1100px;
+  width: 310px;
+  }
 
-    img.image4{
-    position: relative;
-    bottom: 700px;
-    width: 80%;
-    left: 10px;
-    }
+  img.image2{
+  position:absolute;
+  bottom: 905px;
+  left: 525px;
+  width: 330px;
+  }
 
-    img.image5{
-    position: relative;
-    bottom: 960px;
-    left: 400px;
-    }
+  img.image3{
+  position:absolute;
+  bottom: 1095px;
+  left: 880px;
+  width: 340px;
+  height: 220px;
+  }
 
-    img.image6{
-    position: relative;
-    bottom: 1430px;
-    left: 790px;
-    }
+  img.image4{
+  position:absolute;
+  bottom: 690px;
+  width: 310px;
+  left: 190px;
+  }
 
-    img.image7{
-    position: relative;
-    bottom: 1210px;
-    left: 10px;
-    width: 165%;
-    }
+  img.image5{
+  position:absolute;
+  bottom: 690px;
+  left: 524px;
+  width: 332px;
+  height: 190px;
+  }
 
-    img.image8{
-    position: relative;
-    bottom: 1730px;
-    left: 790px;
-    }}
-/* pabaiga */
-   .footer{
-        background-color: #363535;
-        color: #fff;
-        padding: 60px 20px 30px;
-        font-family: 'Poppins', sans-serif;
-        }
-  
-    .footer-container{
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 40px;
-        }
+  img.image6{
+  position:absolute;
+  bottom: 830px;
+  left: 880px;
+  width: 340px;
+  }
 
-    .footer-column{
-        flex: 1 1 220px;
-        }
+  img.image7{
+  position:absolute;
+  bottom: 400px;
+  left: 190px;
+  width: 665px;
+  }
 
-.footer-column h2.logo {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
+  img.image8{
+  position:absolute;
+  bottom: 400px;
+  left: 880px;
+  height: 400px;
+  width: 340px;
+  }}
 
-.footer-column h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
+/* gallery pabaiga */
+    
+/* Section what */
 
-.footer-column p {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 12px;
-}
+.what{
+  font-family: "Livvic", sans-serif;
 
-.footer-links {
-  list-style: none;
-  padding: 0;
-}
+h2{
+  font-size: 40px;
+  left: 430px;
+  bottom: 320px;
+  position: relative;
+  }
 
-.footer-links li {
-  font-size: 14px;
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-}
+  .tulpe{
+  position: relative;
+  bottom: -10px;
+  }
 
-.footer-links .dot {
-  width: 8px;
-  height: 8px;
-  background: #fff;
-  border-radius: 50%;
+  h5.qq{
+  font-size: 16px;
+  left: 860px;
+  bottom: 630px;
+  position: relative;
+  color: #ffffff;
+  z-index: 1;
+  }
+
+  h5.q{
+  font-size: 16px;
+  left: 330px;
+  bottom: 380px;
+  z-index: 1;
+  color: #ffffff;
+  position: relative;
+  }
+
+  p.hh:hover{
+  color: #000000;
+  background-color: #ffffff;
+  }
+
+  p.hh{
+  position: relative;
   display: inline-block;
- position: relative;
+  padding: 15px 60px 15px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 100px;
+  margin: 0;
+  bottom: 690px;
+  width: 440px;
+  left: 200px;
+  height: 150px;
+  box-shadow: 0px 4px 20px;
+  font-size: 16px;
+  }
+
+  p.h{
+  position: relative;
+  display: inline-block;
+  padding: 15px 60px 15px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 100px;
+  margin: 0;
+  bottom: 440px;
+  width: 440px;
+  left: 750px;
+  height: 150px;
+  box-shadow: 0px 4px 20px;
+  font-size: 16px;
+  }
+
+  p.h:hover{
+  color: #000000;
+  background-color: #ffffff;
+  }
+
+  img.imageee{
+  position: relative;
+  left: 200px;
+  bottom: 330px;
+  margin: 0;
+  z-index: 1;
+  }
+
+  img.imagee{
+  position: relative;
+  margin: 0;
+  left: 200px;
+  bottom: 520px;
+  z-index: 1;
+  }
+
+  }
+
+/* what pabaiga */
+
+/* section our */
+
+  .nuotrauka img{
+  position: relative;
+  width: 1400px;
+  left: -15px;
+  bottom: 500px;
+  }
+
+  .our{
+  font-family: "Livvic", sans-serif;
+  background-color: rgba(0, 0, 0.6, 0.7);
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  z-index: 1;
+  width: 690px;
+  bottom: 1000px;
+  left: 350px;
+  height: 200px;
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(2px);
+
+  h2{font-size: 35px;
+  }}
+
+/* our pabaiga */
+
+/* section contact */
+
+  .contact{
+  font-family: "Livvic", sans-serif;
+
+  h2{
+  position: relative;
+  font-size: 35px;
+  bottom: 900px;
+  left: 560px;
+  z-index: 1;
+  }
+
+  .text1{
+  position: relative;
+  width: 410px;
+  height: 30px;
+  bottom: 1340px;
+  left: 470px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  }
+
+  .text2{
+  position: relative;
+  width: 410px;
+  height: 30px;
+  bottom: 1275px;
+  left: 35px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  }
+
+  .text3{
+  position: relative;
+  width: 410px;
+  height: 30px;
+  bottom: 1210px;
+  left: -400px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  }
+
+  .text4{
+  position: relative;
+  width: 410px;
+  height: 80px;
+  bottom: 1190px;
+  left: 470px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  }
+
+  .f{
+  position: relative;
+  left: 280px;
+  bottom: 950px;
+  width: 750px;
+  }
+
+  .send{ 
+  position: relative;
+  display: inline-block;
+  padding: 15px 60px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 25px;
+  margin: 30px ;
+  bottom: 1080px;
+  width: 50px;
+  left: 120px;
+  text-decoration: none;
+
+  }
+  .send:hover{
+  background-color: #000000;
+  color: #ffffff
+  }}
+
+  .zemelapis{
+  position: relative;
+  left: -10px;
+  width: 1400px;
+  height: 300px;
+  bottom: 1050px;
+  }
+
+  .tulpe{
+  position: relative;
+  bottom: -5px;
+  }
+
+/* contact pabaiga */
+
+/* section footer */
+  
+  .footer{
+  position: relative;
+  background-color: #202020;
+  color: #fff;
+  padding: 60px 20px 30px;
+  font-family: "Livvic", sans-serif;
+  bottom: 1054px;
+  left: -10px;
+  width: 1360px;
+  height: 430px;
+  
+
+  h2{
+  position: relative;
+  left: 240px;
+  font-size:40px ;
+
+  }
+  p.v{
+  position: relative;
+  font-size: 20px;
+  width: 250px;
+  height: 0px;
+  line-height: 35px;
+  left: 240px;
+  bottom: 20px;
+  color: #dddddd;
+  }
+  p.vv{
+  position: relative;
+  bottom: 850px;
+  left: 1150px;
+  color: #dddddd;
+  }
+  p.vvv{
+      position: relative;
+  bottom: 880px;
+  left: 1150px;
+  color: #dddddd;
+  }
+  p.vvvv{
+  position: relative;
+  bottom: 910px;
+  left: 1150px;
+  color: #dddddd;
+  }
+
+  p.vvvvv{
+  position: relative;
+  bottom: 720px;
+  left: 550px;
+  color: #dddddd;
+  }
+  .line{ 
+  position: relative;
+  bottom: 725px; 
+  left: 70px;
+  width: 600px; 
+  border: none;
+  border-top: 1px solid #dddddd;}
+  .telephone{
+  position: relative;
+  bottom: 845px;
+  width: 13px;
+  left: 1120px;
+  }
+  .location{
+  position: relative;
+  bottom: 810px;
+  width: 13px;
+  left: 1120px;
+  }
+  .message{
+  position: relative;
+  bottom: 875px;
+  width: 13px;
+  left: 1120px;
+  }
+
+  h3.s{
+  position: relative;
+  bottom: 370px;
+  left: 640px;
+  }
+
+  h3.ss{
+  position: relative;
+  bottom: 823px;
+  left: 1120px;
+  color: #ffffff;
+  
+  }
+
+  h5{
+  position: relative;
+  bottom: 585px;
+  font-size: 19px;
+  left: 880px;
+
+
+  }
+
+  .flowerr{
+  position: relative;
+  bottom: -50px;
+  left: -40px;
+  width: 300px;
+  }
+  
+  ul li a{
+  color: #dddddd;
+  text-decoration: none;
+  position: relative;
+  bottom: 370px;
+  left: 600px;
+  font-size: 20px;
+  line-height: 35px;
+  }
+
+  ul li a:hover{
+  color: #de562d;
+  }}
+  
+
+
+  .insta-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 60px);
+  gap: 8px;
+  bottom: 580px;
+  left: 880px;
+  }
+
+  .insta-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  }
+
+
+  
+
+
+
+  
+
+@media ( min-width: 768px ) and ( max-width: 1438px ){
+.header{
+  span{
+  position: relative;
+  z-index: 1;
+  bottom: 0px;
+  left: 30px;
+  font-size: 25px;
+  font-family: "Livvic", sans-serif;
+  }
+  ul li a{
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 4px;
+    
+  }
+  ul li a::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    width: 0;
+    background-color: #de562d;
+    
+  }
+  ul li a:hover::after{
+    
+    width: 120%;
+  }
+  .ahome{
+    position: relative;
+    z-index: 1;
+    bottom: 775px;
+    left: 100px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+    
+  }
+  .aabout{
+    position: relative;
+    z-index: 1;
+    bottom: 793px;
+    left: 200px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+    
+  }
+  .agallery{
+    position: relative;
+    z-index: 1;
+    bottom: 810px;
+    left: 300px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+    
+  }
+  .acontact{
+    position: relative;
+    z-index: 1;
+    bottom: 827px;
+    left: 400px;
+    font-size: 15px;
+    font-family: "Livvic", sans-serif;
+   
+  }
+  .alog{
+    font-size: 0px;
+  }
+  .ashop{
+    font-size: 0px;
+  }
+  .asearch{
+    font-size: 0px;
+  }
+  .flower11{
+    height: 740px;
+    right: 10px;
+    position: relative;
+    z-index: 0;
+    bottom: 40px;
+   
+    
+  }
+  .NavList{
+    list-style-type: none;
+  }
+  
+  
 }
 
-.footer-links .active {
-  background: #e52e2e;
+
+.body{
+  margin: 0;
+  
+  color: #0c0c0c;
+  background-color: #ffffff;
+  
+}
+.box{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .gallery{
+    position: relative;
+  
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      width: 125px;
+      height: 140px;
+      background-image: url(../images/rose.png);
+      background-size: cover;
+    }}
+
+/* section flower */
+
+    .flower{
+      font-family: "Livvic", sans-serif;
+
+        h2{
+        text-align: left;
+        position: relative;
+        bottom: 1130px;
+        left: 70px;
+        font-size: 40px;
+        }
+        span{
+        position: relative;
+        bottom: 790px;
+        left: 0px;}
+
+        hr{
+        position: relative;
+        width: 1px; 
+        height: 300px; 
+        display: inline-block;
+        left: 10px;
+        bottom: 790px;
+        }
+
+        h1{
+        position: relative;
+        color: #de562d;
+        font-size: 75px;
+        bottom: 1190px;
+        left: 65px;
+        }
+      
+        a{
+        position: relative;
+        display: inline-block;
+        padding: 5px 55px;
+        background-color: #de562d;
+        color: #ffffff;
+        border-radius: 25px;
+        bottom: 1220px;
+        left: 75px;
+        text-decoration: none;
+        }
+        a:hover{
+          background-color: #000000;
+        }
+        
+        p{
+        position: relative;
+        left: 75px;
+        bottom: 1240px;
+        font-size: 15px;
+        }
+        
+        .img-hover {
+          position: relative;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background-color: #de562d;
+          padding: 7px 7px;
+          margin: 1px;
+          bottom: 1190px;
+          left: 80px;
+        }
+        
+      
+        
+        .img-hover:hover {
+          background-color: black;
+        }
+        .imghover{
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background-color: #de562d;
+          padding: 7px 8px;
+          margin: 1px;
+          bottom: 472px;
+          left: 155px;
+        }
+      
+        
+        .imghover:hover {
+          background-color: black;
+        }
+
+
+      }
+
+/* flower pabaiga */
+   
+
+/* section about */
+
+    .about{ 
+      font-family: "Livvic", sans-serif;
+
+        h2{
+        text-align: right;
+        position: relative;
+        left: -200px;
+        bottom: 1480px;
+        font-size: 35px;
+        
+        }
+    
+        p{
+        text-align: right;
+        position: relative;
+        left: -200px;
+        bottom: 1500px;
+        font-size: 100%;
+        }
+
+        .aboutpng{
+        width: 320px;
+        position: relative;
+        bottom: 990px;
+        left: 60px;
+        }
+        .tulpe{
+        position: relative;
+        top: 8px;
+        }}
+
+/* about pabaiga */
+
+    
+
+/* section why */
+
+   .why{
+    font-family: "Livvic", sans-serif;
+       
+        background-color: #ff0000;
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+        position: relative;
+        width: 600px;
+        bottom: 1300px;
+        right: 10px;
+        height: 150px;
+        
+        }
+
+        .why a{ 
+        position: relative;
+        display: inline-block;
+        padding: 8px 20px;
+        background-color: #ffffff;
+        color: #ff0000;
+        border-radius: 25px;
+        margin: 30px ;
+        bottom: 150px;
+        width: 110px;
+        left: 2px;
+        text-decoration: none;
+        }
+      
+
+        .why h2{
+        position: relative;
+        font-size: 35px;
+        bottom: 130px;
+
+
+        }
+        .why p{
+        position: relative;
+        font-size: 10px;
+        max-width: 500px;
+        left: 50px;
+        bottom: 140px;
+        }
+        .skaiciai{
+          font-family: "Livvic", sans-serif;
+        width: 70px;
+        height: 70px;
+        background-color: #ff5a0e;
+        color: white;
+        font-weight: bold;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        font-size: 30px;
+        }
+        .du{
+        bottom: 110px;
+        left: 50px;
+        }
+        .tris{
+        left: 500px;
+        bottom: 1350px;
+        }
+        .vienas{
+          width: 0px;
+          bottom: 1170px;
+          left: 1220px;
+        }
+        .keturi{bottom: 430px;
+        left: 50px;
+      width: 0px;}
+        .penki{bottom: 875px;
+        left: 1220px;}
+
+/* why pabaiga */
+
+/* section gallery */
+
+.gallery{
+  font-family: "Livvic", sans-serif;
+  h2{
+  position: relative;
+  font-size: 35px;
+  left: 200px;
+  bottom: 1350px;
+  }
+  img.roze{
+  position:absolute;
+  width: 150px;
+  bottom: 1260px;
+  left: -40px;
+  }
+
+  img.rozee{
+  position:absolute;
+  width: 160px;
+  bottom: 290px;
+  left: 1220px;
+  }
+
+  .tulpe{
+  position: relative;
+  bottom: -10px;
+  }
+
+  img{
+  position: relative;
+  }
+img.image1 {
+  position: absolute;
+  left: 55px;
+  bottom: 1150px;
+  width: 155px;
+}
+
+img.image2 {
+  position: absolute;
+  bottom: 1052.5px;
+  left: 222.5px;
+  width: 165px;
+}
+
+img.image3 {
+  position: absolute;
+  bottom: 1147.5px;
+  left: 400px;
+  width: 170px;
+  height: 110px;
+}
+
+img.image4 {
+  position: absolute;
+  bottom: 945px;
+  left: 55px;
+  width: 155px;
+}
+
+img.image5 {
+  position: absolute;
+  bottom: 945px;
+  left: 222px;
+  width: 166px;
+  height: 95px;
+}
+
+img.image6 {
+  position: absolute;
+  bottom: 1015px;
+  left: 400px;
+  width: 170px;
+}
+
+img.image7 {
+  position: absolute;
+  bottom: 800px;
+  left: 55px;
+  width: 332.5px;
+}
+
+img.image8 {
+  position: absolute;
+  bottom: 800px;
+  left: 400px;
+  width: 170px;
+  height: 200px;
+}}
+
+/* gallery pabaiga */
+    
+/* Section what */
+
+.what{
+  font-family: "Livvic", sans-serif;
+
+h2{
+  font-size: 0px;
+  left:80px;
+  bottom: 750px;
+  position: relative;
+  }
+
+  .tulpe{
+  position: relative;
+  width: 0px;
+  }
+
+  h5.qq{
+  font-size: 0px;
+  left: 860px;
+  bottom: 630px;
+  position: relative;
+  color: #ffffff;
+  z-index: 1;
+  }
+
+  h5.q{
+  font-size: 0px;
+  left: 330px;
+  bottom: 380px;
+  z-index: 1;
+  color: #ffffff;
+  position: relative;
+  }
+
+  p.hh:hover{
+  color: #000000;
+  background-color: #ffffff;
+  }
+
+  p.hh{
+  position: relative;
+  display: inline-block;
+  padding: 15px 60px 15px 20px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 100px;
+  margin: 0;
+  bottom: 690px;
+  width: 0px;
+  left: 200px;
+  height: 150px;
+  box-shadow: 0px 4px 20px;
+  font-size: 16px;
+  }
+
+  p.h{
+  position: relative;
+  display: inline-block;
+  padding: 15px 60px 15px 20px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 100px;
+  margin: 0;
+  bottom: 440px;
+  width: 440px;
+  left: 750px;
+  height: 150px;
+  box-shadow: 0px 4px 20px;
+  font-size: 16px;
+  }
+
+  p.h:hover{
+  color: #000000;
+  background-color: #ffffff;
+  }
+
+  img.imageee{
+  position: relative;
+  left: 200px;
+  bottom: 330px;
+  margin: 0;
+  z-index: 1;
+  width: 0px;
+  }
+
+  img.imagee{
+  position: relative;
+  margin: 0;
+  left: 200px;
+  bottom: 520px;
+  z-index: 1;
+  width: 0px;
+  }
+
+  }
+
+/* what pabaiga */
+
+/* section our */
+
+  .nuotrauka img{
+  position: relative;
+  width: 700px;
+  left: -15px;
+  bottom: 1600px;
+  }
+
+  .our{
+  font-family: "Livvic", sans-serif;
+  background-color: rgba(0, 0, 0.6, 0.7);
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  z-index: 1;
+  width: 450px;
+  bottom: 1900px;
+  left: 60px;
+  height: 150px;
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(2px);
+  font-size: 14px;
+
+  p{position: relative;
+  bottom: 50px;}
+
+  h2{position: relative;
+    font-size: 30px;
+    bottom: 50px;
+  }}
+
+/* our pabaiga */
+
+/* section contact */
+
+  .contact{
+  font-family: "Livvic", sans-serif;
+
+  h2{
+  position: relative;
+  font-size: 0px;
+  bottom: 900px;
+  left: 560px;
+  z-index: 1;
+  }
+
+  .text1{
+  position: relative;
+  width: 0px;
+  height: 30px;
+  bottom: 1340px;
+  left: 470px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  width: 0px;
+  background-color: transparent;
+  }
+
+  .text2{
+  position: relative;
+  width: 0px;
+  height: 30px;
+  bottom: 1275px;
+  left: 35px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: transparent;
+  }
+
+  .text3{
+  position: relative;
+  width: 0px;
+  height: 30px;
+  bottom: 1210px;
+  left: -400px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: transparent;
+  }
+
+  .text4{
+  position: relative;
+  width: 0px;
+  height: 80px;
+  bottom: 1190px;
+  left: 470px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: transparent;
+  }
+
+  .f{
+  position: relative;
+  left: 280px;
+  bottom: 950px;
+  width: 0px;
+  }
+
+  .send{ 
+  position: relative;
+  display: inline-block;
+  padding: 0px 00px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 25px;
+  margin: 30px ;
+  bottom: 1080px;
+  width: 0px;
+  left: 120px;
+  text-decoration: none;
+
+  }
+  .send:hover{
+  background-color: #000000;
+  color: #ffffff
+  }}
+
+.zemelapis {
+  position: relative;
+  left: -15px;          
+  width: 680px;         
+  height: 130px;        
+  bottom: 2051px;        
+}
+
+.tulpe {
+  position: relative;
+  bottom: -2.5px; 
+  width: 0px;      
+}
+
+/* section footer */
+.up{position: relative;
+bottom: 1540px;}
+.footer {
+  position: relative;
+  background-color: #202020;
+  color: #fff;
+  padding: 10px 0  -5px; 
+  font-family: "Livvic", sans-serif;
+  bottom: 507px;         
+  left: -15px;           
+  width: 660px;         
+  height: 195px;         
+}
+
+.footer h2 {
+  position: relative;
+  left: 110px;           
+  font-size: 18px;       
+}
+
+.footer p.v {
+  position: relative;
+  font-size: 8px;       
+  width: 105px;          
+  height: 0px;
+  line-height: 15px;     
+  left: 110px;           
+  bottom: 10px;
+  color: #dddddd;
+}
+
+.footer p.vv {
+  position: relative;
+  bottom: 405px;         
+  left: 565px;           
+  color: #dddddd;
+ font-size: 0px;
+}
+
+.footer p.vvv {
+  position: relative;
+  bottom: 420px;         
+  left: 565px;           
+  color: #dddddd;
+  font-size: 0px;
+}
+
+.footer p.vvvv {
+  position: relative;
+  bottom: 435px;         
+  left: 565px;  
+   font-size: 0px;      
+  color: #dddddd;
+}
+
+.footer p.vvvvv {
+  position: relative;
+  bottom: 340px;        
+  left: 265px; 
+  font-size: 0px;        
+  color: #dddddd;
+}
+
+.footer .line {
+  position: relative;
+  bottom: 342.5px;       
+  left: 25px;            
+  font-size: 0px; 
+  width: 0px;        
+  border: none;
+  border-top: 1px solid #dddddd;
+}
+
+.footer .telephone {
+  position: relative;
+  bottom: 402.5px;       
+  width: 0px;
+  left: 550px;           
+}
+
+.footer .location {
+  position: relative;
+  bottom: 385px;        
+  width: 0px;
+  left: 550px;           
+}
+
+.footer .message {
+  position: relative;
+  bottom: 417.5px;       
+  width: 0px;
+  left: 550px;           
+}
+
+.footer h3.s {
+  position: relative;
+  bottom: 165px;         
+  left: 310px;           
+}
+
+.footer h3.ss {
+  position: relative;
+  bottom: 391.5px;       
+  left: 550px;    
+   font-size: 0px;       
+  color: #ffffff;
+}
+
+.footer h5 {
+  position: relative;
+  bottom: 272.5px;       
+  font-size: 8.5px;      
+  left: 430px;           
+}
+
+.footer .flowerr {
+  position: relative;
+  bottom: -25px;
+  left: -20px;
+  width: 130px;         
+}
+
+.footer ul li a {
+  color: #dddddd;
+  text-decoration: none;
+  position: relative;
+  bottom: 165px;         
+  left: 290px;           
+  font-size: 8px;       
+  line-height: 15px;     
+}
+
+.footer ul li a:hover {
+  color: #de562d;
 }
 
 .insta-grid {
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 60px);
-  gap: 8px;
+  grid-template-columns: repeat(2, 30px);
+  gap: 4px;
+  bottom: 270px;
+  left: 430px;           
 }
 
 .insta-grid img {
   width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
-.icon {
-  margin-right: 8px;
-}
 
-.decor-flower {
-  margin-top: 20px;
-  width: 80px;
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 40px;
   
-  padding-top: 20px;
-  font-size: 13px;
+
+
+
   
+
+
 }
-
-h222{
-  text-align: left;
-  position: relative;
-  top: 0px;
-  bottom: 0;
-  right: 100;
-  left: 100;
-}
-.flower11{
-  width: 10px;
-  height: 10px;
-  position: relative;
-  top: 0px;
-  bottom: 10;
-  right: 0;
-  left: 0;
-  }
-.welcome{
- width: 130%;
-
- 
-}
-.title{
-  font-size: 200%;
-  position: relative;
-  top:70px ;
-}
-
-
-
-
-
-
-.line{
+@media( max-width: 767px ){
   
-}
-.image{
-  width: 0;
-
-}
-
-
-.logo{
-  width: 0;
 }

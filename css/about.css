@@ -1,0 +1,30 @@
+.about{ 
+      font-family: "Livvic", sans-serif;
+
+        h2{
+        text-align: right;
+        position: relative;
+        left: -200px;
+        bottom: 1500px;
+        font-size: 40px;
+        
+        }
+    
+        p{
+        text-align: right;
+        position: relative;
+        left: -200px;
+        bottom: 1520px;
+        font-size: 130%;
+        }
+
+        .aboutpng{
+        width: 520px;
+        position: relative;
+        bottom: 1130px;
+        left: 190px;
+        }
+        .tulpe{
+        position: relative;
+        top: 8px;
+        }}

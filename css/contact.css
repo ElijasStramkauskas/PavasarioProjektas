@@ -1,0 +1,97 @@
+.contact{
+  font-family: "Livvic", sans-serif;
+
+  h2{
+  position: relative;
+  font-size: 35px;
+  bottom: 900px;
+  left: 560px;
+  z-index: 1;
+  }
+
+  .text1{
+  position: relative;
+  width: 410px;
+  height: 30px;
+  bottom: 1340px;
+  left: 470px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  }
+
+  .text2{
+  position: relative;
+  width: 410px;
+  height: 30px;
+  bottom: 1275px;
+  left: 35px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  }
+
+  .text3{
+  position: relative;
+  width: 410px;
+  height: 30px;
+  bottom: 1210px;
+  left: -400px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  }
+
+  .text4{
+  position: relative;
+  width: 410px;
+  height: 80px;
+  bottom: 1190px;
+  left: 470px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  }
+
+  .f{
+  position: relative;
+  left: 280px;
+  bottom: 950px;
+  width: 750px;
+  }
+
+  .send{ 
+  position: relative;
+  display: inline-block;
+  padding: 15px 60px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 25px;
+  margin: 30px ;
+  bottom: 1080px;
+  width: 50px;
+  left: 120px;
+  text-decoration: none;
+
+  }
+  .send:hover{
+  background-color: #000000;
+  color: #ffffff
+  }}
+
+  .zemelapis{
+  position: relative;
+  left: -10px;
+  width: 1400px;
+  height: 300px;
+  bottom: 1050px;
+  }
+
+  .tulpe{
+  position: relative;
+  bottom: -5px;
+  }
